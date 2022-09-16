@@ -1,0 +1,99 @@
+.section-inputText{
+  display: inline-block;
+  padding: 20px;
+  text-align: center;
+  margin-right: 0%;
+  margin-left: 10%;
+}
+.section-inputText textarea{
+  font-size: 30px;
+  border: 3px solid #0A3871;
+  width: 400px;
+  height: 400px;
+  border-radius: 15px;
+}
+.encrypt {
+  display: inline-block;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 24px;
+  position: static;
+  width: 200px;
+  height: 67px;
+  left: 0px;
+  top: 0px;
+  background: #0A3871;
+  border-radius: 24px;
+  margin: 10px 0px;
+  color: #f7f3f3;
+  font-style: italic;
+  font-weight: 20;
+  font-size: 20px;
+  line-height: 19px;
+  justify-content: center; 
+}
+.decrypt{
+  display: inline-block;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 24px;
+  position: static;
+  width: 200px;
+  height: 67px;
+  left: 0px;
+  top: 0px;
+  background: #0A3871;
+  border-radius: 24px;
+  margin: 10px 0px;
+  color: #f7f3f3;
+  font-style: italic;
+  font-weight: 20;
+  font-size: 20px;
+  line-height: 19px;
+  justify-content: center; 
+}
+.section-message{
+  position: absolute;
+  display: inline-block;
+  padding: 20px;
+  margin-left: 10%;
+  background: #FFFFFF;
+  text-align: center;
+  vertical-align: top;
+}
+.section-message textarea{
+  font-size: 30px;
+  border: 3px solid #0A3871;
+  width: 400px;
+  height: 400px;
+  border-radius: 15px;
+}
+.copy{
+  display: inline-block;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 24px;
+  position: static;
+  width: 200px;
+  height: 67px;
+  left: 0px;
+  top: 0px;
+  background: #0A3871;
+  border-radius: 24px;
+  margin: 10px 0px;
+  color: #f7f3f3;
+  font-style: italic;
+  font-weight: 20;
+  font-size: 20px;
+  line-height: 19px;
+  justify-content: center; 
+}
+footer{
+  text-align: center;
+  background: url(img/background-footer.jpg);
+  padding: 20px;
+}
+footer blockquote{
+  color: antiquewhite;
+  font-size: 20px;
+}

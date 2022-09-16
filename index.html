@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Text Encryptor</title>
+    </head>
+    <body>
+        <main>
+            <h1><img src="img/alura-logo.png" class="logo"></h1>
+            <section class="section-inputText">
+                <textarea class="inputText" maxlength="200" cols="50" rows="12" placeholder="Ingrese texto en minuscula aqui" ></textarea>
+                <div class="buttons">
+                    <button class="encrypt" onclick="btnEncrypt()">Encriptar</button>
+                    <button class="decrypt" onclick="btnDecrypt()">Desencriptar</button>
+                </div>
+            </section>
+            <section class="section-message">
+                <textarea class="message" maxlength="200" cols="50" rows="12"></textarea>
+                <div>
+                    <button class="copy" onclick="btnCopy()">Copiar Texto</button>
+                </div>
+            </section>
+        </main>
+        <script src="script.js"></script>
+    </body>
+    <footer>
+        <blockquote>Ezequiel Ignacio Vera &copy</blockquote>
+    </footer>
+</html>
